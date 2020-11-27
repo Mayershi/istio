@@ -293,6 +293,7 @@ message EgressGatewayConfig {
 message GatewayLabelsConfig {
   string app = 1;
   string istio = 2;
+  string fargate = 3;
 }
 
 // Configuration for gateways.
